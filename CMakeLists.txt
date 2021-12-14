@@ -3,4 +3,4 @@ project(trs_completion)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(trs_completion main.cpp)
+add_executable(trs_completion main.cpp Trs.cpp Trs.h Term.cpp Term.h)
