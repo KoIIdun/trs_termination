@@ -5,6 +5,6 @@
 using namespace std;
 int main() {
     string data;
-    Trs trs("test_dickson1.trs");
+    Trs trs("./tests/Dickson/test_dickson2.trs");
     return 0;
 }

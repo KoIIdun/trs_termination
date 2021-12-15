@@ -13,8 +13,13 @@ class Trs {
         string trsstr;
         vector<string> variableNames;
         vector<pair<Term, Term>> rules;
+        vector<string> inputLines;
+
 public:
-    Trs(string filename);
+    Trs(string filepath);
+    void parseInput();
+    void parseVars(const string& str);
+    void parseRule(const string& str);
 };
 
 
